@@ -1,0 +1,27 @@
+<head>
+<title>breadrock blog css</title>
+<style>
+	body{
+	font-family: cursive; font-size: 14px; color: #121481;
+	}
+
+	table{
+	font-family: cursive
+	}
+
+	td{
+	text-align: center;
+	vertical-align: top;
+	}
+	
+	h1{
+	text-align: left;
+	}
+	
+	#pone{
+	text-align: left;
+	}
+
+
+</style>
+</head>
