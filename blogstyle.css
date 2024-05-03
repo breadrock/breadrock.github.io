@@ -10,12 +10,10 @@
 	}
 
 	td{
-	text-align: center;
+	text-align: left;
 	vertical-align: top;
 	}
-	tr{
-		text-align: left
-	}
+	
 	h1{
 	text-align: left;
 	}
@@ -24,9 +22,5 @@
 	text-align: left;
 	}
 
-	#pupdate{
-		text-align: left;
-		font-size: 10;
-	}
 </style>
 </head>
