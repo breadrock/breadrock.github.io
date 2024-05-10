@@ -1,28 +1,61 @@
-<head>
+<body>
 <title>breadrock blog css</title>
 <style>
+
 	body{
-	font-family: cursive; font-size: 14px; color: #121481;
+	font-family: cursive;
 	}
 
 	table{
-	font-family: cursive
+	font-family: cursive;
 	}
 
 	td{
 	text-align: left;
 	vertical-align: top;
-  	margin-right: 100px;
-	border: 1px red;
+	}
+
+	.stampbox{
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #074173;
+	}
+
+	.text{
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #074173;
 	}
 	
 	h1{
 	text-align: left;
-	}
-	
-	#pone{
-	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
 	}
 
+	.navi{
+	text-align: center;
+	font-weight: bold;
+	}
+	
+	.navigation{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	}
+
+	.navipoints{
+	width: 15px;
+	padding-right: 10px;
+	}
+	
+	.pbox{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	}
+	
+
 </style>
-</head>
+</body>
