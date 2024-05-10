@@ -1,61 +1,56 @@
-<body>
-<title>breadrock blog css</title>
+<head>
+	<title>welcome to the oven</title>
+	<link rel="stylesheet" href="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\blogstyle.css">
 <style>
-
 	body{
 	font-family: cursive;
+	background-image: url("C:/Users/angel/OneDrive/Desktop/GitHub/breadrock.github.io/medias/bg.jpg");
 	}
-
-	table{
-	font-family: cursive;
-	}
-
-	td{
-	text-align: left;
-	vertical-align: top;
-	}
-
-	.stampbox{
-	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #074173;
-	}
-
-	.text{
-	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #074173;
-	}
-	
-	h1{
-	text-align: left;
-	padding-left: 10px;
-	padding-top: 10px;
-	}
-
-	.navi{
-	text-align: center;
-	font-weight: bold;
-	}
-	
-	.navigation{
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	}
-
-	.navipoints{
-	width: 15px;
-	padding-right: 10px;
-	}
-	
-	.pbox{
-	text-align: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	}
-	
-
 </style>
+</head>
+<body>
+<center>
+<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\header.png" width="1200">
+<p class="news">site's layout was updated in 10th May 2024 (this is supposed to move like those animation bar thingie in news broadcast but idk how to do it YET)</p>
+
+
+
+
+<p>
+<table width="1200">
+	<tr>
+		<td class="stampbox" width="190">
+			<p class="navi">navi</p>
+		<div class="navigation">
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">home</p>
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">projects</p>
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">outfit archive</p>
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">online obituary</p>
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">sources</p>
+			<p><img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\navi_points.png" class="navipoints">guest book</p>
+		</div>
+
+		<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\button_1_windpower.png" alt="windpower">
+		<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\button_3_miku.gif" alt="mikuapproved">
+		<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\button_2_happygolucky.jpg" alt="happygolucky">
+		<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\stamp_chao1.png" width="88" alt="chao">
+		<img src="C:\Users\angel\OneDrive\Desktop\GitHub\breadrock.github.io\medias\stamp_seamoon.png" width="88" alt="seamoon">
+
+		</td>
+		<td width="10"></td>
+		<td class="text" width="1000">
+			<h1>za home</h1>
+		<div class="pbox">
+			<p>welcome to my page! think of this site as a digital room where i store everything. in here you can find my projects, outfits i've made in style savvy, erm an obituary for deceased fictional characters, sources for rentrys and the codes i copypasted for this website (heh), as well as a guest book to leave your mark!</p>
+			<p>some introduction here... my name is sylph and as you can see from this page's decors,, i love cookie run! i play all cookie run games except cookie run puzzle world. my other interests are honkai star rail (asia), paradox live, idolish7, style savvy. my current obsession is alien stage!!</p>
+			<p>my cookie run id is breadrock in all of the games, do add me if you'd like (add me pls)</p>
+			<p><strong>DISCLAIMER! this page is still a work in progress so excuse its looks :c</strong></p>
+		</div>
+</tr>
+
+	
+</table>
+</p>
+
+</center>
 </body>
