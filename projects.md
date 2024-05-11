@@ -1,6 +1,3 @@
-layout: page
-title: projects
-permalink: /projects
 <!DOCTYPE html>
 <html>
 <head>
