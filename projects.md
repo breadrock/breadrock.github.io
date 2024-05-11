@@ -1,0 +1,60 @@
+layout: page
+title: projects
+permalink: /projects
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome to the oven</title>
+	<link rel="stylesheet" href="webstyle.css">
+<style>
+	body{
+	font-family: cursive;
+	background-image: url("medias/bg.jpg");
+	}
+</style>
+</head>
+<body>
+<center>
+<img src="medias/header.png" width="1200">
+<p class="news">site's layout was updated in 10th May 2024 (this is supposed to move like those animation bar thingie in news broadcast but idk how to do it YET)</p>
+
+
+
+
+<p>
+<table width="1200">
+	<tr>
+		<td class="stampbox" width="190">
+			<p class="navi">navi</p>
+		<div class="navigation">
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">home</p>
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">projects</p>
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">outfit archive</p>
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">online obituary</p>
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">sources</p>
+			<p><img src="medias/navi_points.png" class="navipoints" alt="navipoints">guest book</p>
+		</div>
+
+		<img src="/medias/button_1_windpower.png" alt="windpower">
+		<img src="/medias/button_3_miku.gif" alt="mikuapproved">
+		<img src="/medias/button_2_happygolucky.jpg" alt="happygolucky">
+		<img src="/medias/stamp_chao1.png" width="88" alt="chao">
+		<img src="/medias/stamp_seamoon.png" width="88" alt="seamoon">
+
+		</td>
+		<td width="10"></td>
+		<td class="text" width="1000">
+			<h1>za home</h1>
+		<div class="pbox">
+			<p>come back later when my brain is actually functional enough for a fun project</p>
+			<p><strong>DISCLAIMER! this page is still a work in progress so excuse its looks :c</strong></p>
+		</div>
+</tr>
+
+	
+</table>
+</p>
+
+</center>
+</body>
+</html>
