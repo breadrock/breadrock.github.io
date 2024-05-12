@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html>
 <body>
-<title>breadrock web css</title>
+<title>breadrock blog css</title>
 <style>
-
-	body{
-	font-family: cursive;
-	}
 
 	table{
 	font-family: cursive;
 	}
 
+	.center{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	}
+
+	.newsbox{
+	width: 895px;
+	height: 24px;
+	position: absolute;
+	background-color: white;
+	border-style: solid;
+	border-color: #074173;
+	overflow: hidden;
+	}
+
+	.news{
+	position: relative;
+	animation-name: newsbroadcast;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	}
+
+	.news{
+	animation-duration: 20s;
+	animation-delay: -2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	}
+
+
+	@keyframes newsbroadcast{
+	0%{left: -20px;}
+	50%{left: 500px;}
+	100%{left: 1000px;}
+	}
+	
 	td{
 	text-align: left;
 	vertical-align: top;
