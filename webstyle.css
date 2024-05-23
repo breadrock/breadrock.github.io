@@ -4,44 +4,59 @@
 <title>breadrock blog css</title>
 <style>
 
-	.center{
-	text-align: center;
-	padding-bottom: 20px;
-	padding-top: 5px;
-	}
+.center{
+text-align: center;
+}
 
-	.newsbox{
-	width: 895px;
-	height: 24px;
-	margin-bottom: 20px;
-	position: absolute;
-	background-color: white;
-	border-style: solid;
-	border-color: #074173;
-	overflow: hidden;
-	}
+body{
+cursor: url("medias/cursor.cur"), auto !important;
+} 
 
-	.news{
-	position: relative;
-	animation-name: newsbroadcast;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	}
+a:hover{
+cursor: url("medias/cursor.cur"), auto !important;
+}
 
-	.news{
-	animation-duration: 20s;
-	animation-delay: -2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	}
+scrollable:hover{
+cursor: url("medias/cursor.cur"), auto !important;
+}
 
+.newsbox {
+width: 895px;
+height: 24px;
+position: absolute;
+background-color: white;
+border-style: solid;
+border-color: #074173;
+border-radius: 10px;
+overflow: hidden;
+}
 
-	@keyframes newsbroadcast{
-	0%{left: -20px;}
-	50%{left: 500px;}
-	100%{left: 1000px;}
-	}
+.news {
+  position: relative;
+  animation-name: newsbroadcast;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.news {
+  animation-duration: 20s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes newsbroadcast {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 450px;
+  }
+  100% {
+    left: 900px;
+  }
+}
 	
 	td{
 	text-align: left;
@@ -52,21 +67,20 @@
 	background-color: #FFFFFF;
 	border-style: solid;
 	border-color: #074173;
-	width: 180px;
-	height: 425px;
+	width: 200px;
 	}
 
 	.text{
 	background-color: #FFFFFF;
 	border-style: solid;
 	border-color: #074173;
-	max-height: 425px;
+	width: 690px;
 	}
 	
 	h1{
 	text-align: left;
-	padding-left: 10px;
 	padding-top: 10px;
+	padding-left: 10px;
 	}
 
 	.navi{
@@ -82,7 +96,7 @@
 
 	.navipoints{
 	width: 15px;
-	padding-right: 10px;
+	padding-right: 8px;
 	}
 	
 	.pbox{
@@ -90,23 +104,15 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	}
-
-	.obcards{
-	width: 710px;
 	height: 300px;
-	overflow-y: scroll;
-	}
-	
-	.cards1{
-	margin-bottom: 10px;
+	width: 690px;
 	}
 
 	.flip-card{
   	background-color: transparent;
-  	width: 150px;
-  	height: 180px;
-	margin-right: 75px;
+  	width: 140px;
+  	height: 160px;
+	margin-right: 65px;
 	}
 
 	.flip-card-inner{
@@ -136,9 +142,14 @@
 	
 	.obimage{
 	object-fit: cover;
-	width: 150px;
-	height: 180px;
+	width: 140px;
+	height: 160px;
 	image-rendering: auto;
+	}
+	
+	.list{
+	text-align: center;
+	padding-right: 80px;
 	}
 
 </style>
